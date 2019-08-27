@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Biting Love Series Bible::Page Name</title>
+		<!-- Additional open-source font from Google -->
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Mirza" rel="stylesheet">
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="css/BLBible.css">
+	</head>
+	<body>
+		<div class="navGrid">
+			<button class="regularButton" onclick="location.href='index.html'">Home</button>
+			<button class="selectedButton" onclick="location.href='itemListCharacter.html'">Character</button>
+			<button class="regularButton">World</button>
+			<button class="regularButton">Orgs</button>
+			<button class="regularButton">Plot</button>
+		</div>
+		<header>
+			<h1>Biting Love Series Bible</h1>
+		</header>
+		<main>
+			<div class="characterName">Nixie Schmeling</div>
+			<img class="characterPicture" src="images/nixie.jpg" alt="Nixie Schmeling">
+			<form>
+                <input type="hidden" name="characterId" id="characterId" value="1">
+				<label for="name">*Name:</label>
+				<input type="text" id="name" name="name" class="characterGrid" value="Nixie Schmeling" disabled>
+				<label for="age">Age year 0 (-100 to 15000): </label>
+				<input type="number" id="age" name="age" min="-100" max="15000" class="characterGrid"  value="25" disabled>
+				<label for="height">Height: </label>
+				<input type="text" id="height" name="height" class="characterGrid"  value="5' 0" disabled>
+				<label for="eyeColor">Eye color: </label>
+				<input type="color" id="eyeColor" name="eyeColor" class="characterGrid" value="#3c9fff" disabled>
+				<label for="hairColor">Hair color: </label>
+				<input type="text" id="hairColor" name="hairColor" class="characterGrid"  value="Blonde. Curly" disabled>
+				<label for="bodyType">Body type: </label>
+				<input type="text" id="bodyType" name="bodyType" class="characterGrid"  value="small and slender but vibrating with energy" disabled>
+				<label for="pictureLinks">Picture links: </label>
+				<textarea id="pictureLinks" name="pictureLinks" class="characterGrid" disabled></textarea>
+				<label for="specialWeapons">Special weapons: </label>
+				<textarea id="specialWeapons" name="specialWeapons" class="characterGrid" disabled></textarea>
+				<label for="books">Books: </label>
+				<textarea id="books" name="books" class="characterGrid"  disabled>Biting Nixie, Bite My Fire</textarea>
+				<label for="bookDropdown">Books available:</label>
+				<select id="bookDropdown" class="characterGrid">
+					<option value="Bite My Fire">Bite My Fire</option>
+					<option value="Biting Nixie">Biting Nixie</option>
+					<option value="The Bite of Silence">The Bite of Silence</option>
+					<option value="Biting Me Softly">Biting Me Softly</option>
+					<option value="Biting Oz">Biting Oz</option>
+					<option value="Beauty Bites">Beauty Bites</option>
+					<option value="Downbeat">Downbeat</option>
+					<option value="Assassin&#39s Bite">Assassin&#39s Bite</option>
+					<option value="Passion Bites">Passion Bites</option>
+					<option value="Night&#39s Caress">Night&#39s Caress</option>
+					<option value="Night&#39s Kiss">Night&#39s Kiss</option>
+					<option value="Night&#39s Bliss">Night&#39s Bliss</option>
+				</select>
+				<label for="backstory">Backstory: </label>
+				<textarea id="backstory" name="backstory" class="characterGrid" disabled>Nixie is a punk rocker who place in the punk/polka fusion band Guns and Polkas.</textarea>
+				<label for="notes">Notes: </label>
+				<textarea id="notes" name="notes" class="characterGrid" disabled>Butterfly tattoo on one arm, tiger on the other.</textarea>
+			</form>
+            <button id="editCharacter" class="characterGrid">Edit character</button>
+
+		</main>
+
+		<footer>
+			<h6>
+				Copyright © 2019 Mary Hughes. All rights reserved.<br>
+			</h6>
+		</footer>
+
+	</body>
+    <!-- Scripts are for jquery and this site -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/BLBible.js"></script>
+</html>
