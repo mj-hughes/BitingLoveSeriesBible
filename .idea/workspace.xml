@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1c08cb1-f1c6-496b-9420-a82baa32cf1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pageTemplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itemDetailNixie.html" afterDir="false" />
+    <list default="true" id="18092a96-ab31-498e-9d20-c2c407247e0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BitingLoveSeriesBible_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitingLoveSeriesBible.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SeriesBibleProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pageTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/_pageTemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/BLBible.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/BLBible.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nixie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/nixie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itemDetailNixie.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/itemDetailNixie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itemEditDetailNixie.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/itemEditDetailNixie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itemListCharacter.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/itemListCharacter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/BLBible.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/BLBible.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +27,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1PnMi61XbuHdupowA16WF8Yaad3" />
+  <component name="ProjectId" id="1QNvlyGOdaG0EkYUNwrxbrJv9Xa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Mary\OneDrive - Waukesha County Technical College\Distributed Java 152-197-002\SeriesBibleProject" />
-      <recent name="C:\Users\Mary\OneDrive - Waukesha County Technical College\Distributed Java 152-197-002\SeriesBibleProject\js" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,32 +47,39 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SeriesBibleProject/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+    <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="BitingLoveSeriesBible:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BitingLoveSeriesBible_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BitingLoveSeriesBible:war exploded" />
+        </option>
+      </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e1c08cb1-f1c6-496b-9420-a82baa32cf1f" name="Default Changelist" comment="" />
-      <created>1566505530557</created>
+      <changelist id="18092a96-ab31-498e-9d20-c2c407247e0e" name="Default Changelist" comment="" />
+      <created>1567624022410</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566505530557</updated>
-      <workItem from="1566505532877" duration="2247000" />
-      <workItem from="1566844195511" duration="4757000" />
-      <workItem from="1566849042336" duration="1633000" />
-      <workItem from="1566850716838" duration="2822000" />
-      <workItem from="1566910882270" duration="1675000" />
-      <workItem from="1566918647591" duration="232000" />
-      <workItem from="1566919977835" duration="518000" />
+      <updated>1567624022410</updated>
+      <workItem from="1567624023713" duration="239000" />
     </task>
     <servers />
   </component>
