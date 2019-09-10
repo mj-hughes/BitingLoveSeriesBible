@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="css/BLBible.css">
 	</head>
 	<body>
-		<div class="navGrid">
+	<div class="navGrid">
 			<button class="selectedButton" onclick="location.href='index.html'">Home</button>
 			<button class="regularButton" onclick="location.href='itemListCharacter.html'">Character</button>
 			<button class="regularButton">World</button>
@@ -26,6 +26,14 @@
 			<button class="bigFont">World</button>
 			<button class="bigFont">Orgs</button>
 			<button class="bigFont">Plot</button>
+			<button class="bigFont">
+				<form method="get" action="dataService">
+					<input type="text" name="param1">
+					<br>
+					<input type="submit" value="See data with GET">
+				</form>
+
+			</button>
 		</div>
 		<footer>
 			<h6>

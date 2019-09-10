@@ -6,12 +6,331 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18092a96-ab31-498e-9d20-c2c407247e0e" name="Default Changelist" comment="" />
+    <list default="true" id="18092a96-ab31-498e-9d20-c2c407247e0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/log2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c13b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c13c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c13e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c13f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1400.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1420.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1431.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1460.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1471.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1491.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c14a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c14b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c14c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c14d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c14e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c14f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1501.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1001.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1040.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1051.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1060.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1071.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1080.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1091.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d10e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d10f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1100.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1111.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1121.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1141.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1170.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1181.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1191.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d11a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d11b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d11c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d11d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d11e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d11f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1201.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1211.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1220.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1231.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1240.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1251.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1260.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1271.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1280.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1291.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d12a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d12b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d12c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d12d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d12e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d12f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1301.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dd60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dd71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ddd0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dde1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ddf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de01.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de11.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de91.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dea0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/deb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dec0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ded1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dee0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/def1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df00.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df11.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df41.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df50.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df61.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df70.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/df90.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dfa1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dfb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dfc0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dfd1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dfe0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dff1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/DatabaseUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/META-INF/BitingLoveSeriesBible.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/Servlet1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/logmirror.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c10.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c101.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c111.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c121.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1310.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1321.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1341.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1380.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c13a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c13b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c13c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c13d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c13e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c13f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1400.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c141.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1420.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1431.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1440.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1460.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1471.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1480.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1491.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c14a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c14b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c14c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c14d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c14e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c14f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1501.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c171.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c180.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c191.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c200.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c211.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c221.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c230.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c241.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c251.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c260.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c271.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c281.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c290.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c300.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c321.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c331.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c340.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c380.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c41.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c421.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c430.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c441.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c470.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c481.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c90.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/ca1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cc0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cd1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/ce1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/derby.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/derbyshared.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/derbytools.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/DatabaseUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/META-INF/BitingLoveSeriesBible.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/Servlet1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Servlet1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c10.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c180.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c180.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c200.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c200.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c211.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c211.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c221.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c221.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c241.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c380.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c380.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c391.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c391.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c3a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c3a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c3b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c3b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c411.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c411.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c421.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c421.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c550.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1440.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c561.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c570.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1480.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c581.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1341.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c590.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1330.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c5a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1321.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c5b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1330.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c5c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c311.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c5f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1310.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c601.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c351.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c610.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1350.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c621.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c461.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c631.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c640.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c651.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c660.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c671.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c681.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c6a0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c13d0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c6b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c6d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1350.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c6e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c700.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1380.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c711.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c730.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c13a0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c741.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c750.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c761.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c770.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c781.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c791.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cc0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cc0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cd1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cd1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ce1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ce1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dd80.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1021.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d4b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d10c0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d4c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d10d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d4d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dda0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d4e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1031.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d4f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de40.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d501.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d10b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d510.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d521.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/dd91.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d530.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/de80.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d541.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ddb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d5d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d1010.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d5e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ddc1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d690.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d10a0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d6c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d6f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/d720.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/lib/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,9 +349,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/dbBLuniverse" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,10 +374,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/BitingLoveSeriesBible" />
       <deployment>
         <artifact name="BitingLoveSeriesBible:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/BitingLoveSeriesBible_war_exploded" />
+            <option name="CONTEXT_PATH" value="/BitingLoveSeriesBible" />
           </settings>
         </artifact>
       </deployment>
@@ -63,6 +390,39 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52283" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -96,7 +456,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567624022410</updated>
-      <workItem from="1567624023713" duration="3347000" />
+      <workItem from="1567624023713" duration="4822000" />
+      <workItem from="1567792057137" duration="1176000" />
+      <workItem from="1567803721557" duration="1616000" />
+      <workItem from="1567808956122" duration="548000" />
+      <workItem from="1567809835516" duration="991000" />
+      <workItem from="1567884337033" duration="1089000" />
+      <workItem from="1567886787910" duration="841000" />
+      <workItem from="1567887703460" duration="8149000" />
+      <workItem from="1568123789344" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="Update to IntelliJ project">
       <created>1567624506018</created>
@@ -112,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567630636413</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Derby database">
+      <created>1567630884996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567630884996</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +498,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -131,6 +508,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update to IntelliJ project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to IntelliJ project" />
+    <MESSAGE value="Add Derby database" />
+    <MESSAGE value="Add Derby database.&#10;1) Embed Derby database with Biting Love universe tables. &#10;2) Add temporary code to query the database, return sample records, and display them to confirm database and data are correctly embedded." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Derby database.&#10;1) Embed Derby database with Biting Love universe tables. &#10;2) Add temporary code to query the database, return sample records, and display them to confirm database and data are correctly embedded." />
   </component>
 </project>
