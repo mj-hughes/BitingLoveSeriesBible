@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
@@ -30,7 +29,7 @@ public class Servlet1 extends HttpServlet {
 
             // Obtain a connection with the database's path
             String absPath=getServletContext().getRealPath("/WEB-INF/lib/dbBLuniverse");
-            conn = DriverManager.getConnection("jdbc:derby:"+absPath, "mhughes", "mhughes");
+            conn = DriverManager.getConnection("jdbc:derby:"+absPath, DatabaseUtils.getUserName(), DatabaseUtils.getPassword());
 
             // Build the SQL
             StringBuilder sql=new StringBuilder("SELECT p.*, b.title, pb.role ");
@@ -46,7 +45,7 @@ public class Servlet1 extends HttpServlet {
             // Create an output string from the return set
             StringBuilder output=new StringBuilder("<html><body><ul>");
             while (rset.next()) {
-                // Column numbers start at 1. can use column name, but it's slower.
+                // Column numbers start at 1. can use column name, but it's slower (a few milliseconds).
                 // get the persona id, name, age, height, eye_color and notes from this result row
                 int persona=rset.getInt(1);
                 String nm=rset.getString(2);
@@ -71,16 +70,16 @@ public class Servlet1 extends HttpServlet {
 
             response.getWriter().print(output.toString());
 
-        } catch (SQLException | ClassNotFoundException e) {
-            // If there's a problem locating the driver, make the error the response
-            response.getWriter().print(e.getMessage());
+        } catch (SQLException | ClassNotFoundException | IOException e) {
+            // If there's an issue with SQL or (|)
+            // If there's a problem locating the driver or
+            // If there's an IO problem, make the error the response
+            response.getWriter().print(e.getMessage()); // IN A LIVE ENVIRONMENT, DO NOT FUNNEL LIVE ERROR INFO TO USER!!!
             e.printStackTrace();
         } finally {
+            // Shut down Derby: connection, statement, resultset
             DatabaseUtils.closeAll(conn, stmt, rset);
-            // Shut down Derby documentation shows it this way:
-//            DriverManager.getConnection("jdbc:derby:;shutdown=true");
         }
-
 
     }
 }
