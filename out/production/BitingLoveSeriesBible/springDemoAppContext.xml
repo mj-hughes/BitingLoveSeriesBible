@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:persona.properties"/>
+
+    <bean id="myLog" class="springxml.services.LogServiceToConsole"></bean>
+    <bean id="myCharacter" class="springxml.beans.Persona">
+        <property name="name" value="${p1.nm}"/>
+        <property name="age_year_zero" value="${p1.age}"/>
+        <property name="height" value="${p1.height}"/>
+        <property name="eye_color" value="${p1.eyeColor}"/>
+        <property name="hair_color" value="${p1.hairColor}"/>
+        <property name="body_type" value="${p1.bodyType}"/>
+        <property name="picture_link" value="${p1.piclink}"/>
+        <property name="notes" value="${p1.notes}"/>
+    </bean>
+</beans>
