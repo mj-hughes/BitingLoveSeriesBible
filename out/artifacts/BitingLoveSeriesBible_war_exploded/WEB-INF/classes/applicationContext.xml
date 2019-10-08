@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- load properties files -->
+    <context:property-placeholder location="classpath:data.properties"/>
+
+    <!-- create bean for log service: chooses console or file -->
+    <!-- the id here is the ref in the setter injection -->
+    <bean id="myLog" class="springxml.services.LogServiceToConsole"></bean>
+    <!--    <bean id="myLog" class="springxml.services.LogServiceToFile"></bean> -->
+
+        <!-- create bean for persona domain class -->
+    <bean id="myCharacter" class="springxml.beans.Persona">
+
+        <!-- Setter injection (service) name matches setLogService in persona -->
+        <property name="logService" ref="myLog"/>
+        <!--constructor injection would be -->
+        <!--<constructor-arg ref="myLog"/>-->
+
+        <!-- literal values injection: name is the field name -->
+        <!-- NOTE: Click on the value to see the underlying injection expresion -->
+        <property name="name" value="${p1.nm}"/>
+        <property name="age_year_zero" value="${p1.age}"/>
+        <property name="height" value="${p1.height}"/>
+        <property name="eye_color" value="${p1.eyeColor}"/>
+        <property name="hair_color" value="${p1.hairColor}"/>
+        <property name="body_type" value="${p1.bodyType}"/>
+        <property name="picture_link" value="${p1.piclink}"/>
+        <property name="notes" value="${p1.notes}"/>
+    </bean>
+
+    <bean id="wLog" class="springxml.services.LogServiceToFile"></bean>
+
+    <!-- create bean for weapon domain class -->
+    <bean id="myWeapon" class="springxml.beans.Weapon">
+
+        <!-- Try constructor injection -->
+        <constructor-arg ref="wLog"/>
+
+        <!-- literal values injection -->
+        <property name="weaponId" value="${w1.id}"/>
+        <property name="weaponName" value="${w1.name}"/>
+        <property name="description" value="${w1.description}"/>
+    </bean>
+
+</beans>

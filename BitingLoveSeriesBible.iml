@@ -50,7 +50,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Spring" level="application" />
     <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
+    <orderEntry type="library" name="Spring MVC-4.3.18.RELEASE" level="project" />
   </component>
 </module>

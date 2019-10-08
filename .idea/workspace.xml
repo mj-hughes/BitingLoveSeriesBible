@@ -7,46 +7,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18092a96-ab31-498e-9d20-c2c407247e0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/SpringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/beans/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/beans/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/beans/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/services/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/services/LogServiceToConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/services/LogServiceToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/springmvc/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/springmvc/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/springmvc/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/springmvc/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springmvc/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/css/BLBible.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/nixie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/js/BLBible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BitingLoveSeriesBible_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BitingLoveSeriesBible_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitingLoveSeriesBible.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BitingLoveSeriesBible.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/log2.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c161.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c171.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/META-INF/BitingLoveSeriesBible.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log2.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/searchCharacterDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/searchCharacterDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/META-INF/BitingLoveSeriesBible.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/springDemoAppContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/springxml/SpringDemoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +82,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,7 +108,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/derbytools.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -121,10 +116,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3137931" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bitstudent\OneDrive - Waukesha County Technical College\Distributed Java 152-197-002\SeriesBibleProject\BitingLoveSeriesBible\web\WEB-INF\resources\js" />
+      <recent name="C:\Users\bitstudent\OneDrive - Waukesha County Technical College\Distributed Java 152-197-002\SeriesBibleProject\BitingLoveSeriesBible\web\WEB-INF\resources\img" />
+      <recent name="C:\Users\bitstudent\OneDrive - Waukesha County Technical College\Distributed Java 152-197-002\SeriesBibleProject\BitingLoveSeriesBible\web\WEB-INF\resources\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringApp">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.22">
     <configuration name="SpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springxml.SpringApp" />
       <module name="BitingLoveSeriesBible" />
@@ -224,6 +226,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.SpringApp" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.22" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpringApp" />
@@ -266,7 +272,11 @@
       <workItem from="1568123789344" duration="1353000" />
       <workItem from="1568386632468" duration="4485000" />
       <workItem from="1569444379281" duration="3003000" />
-      <workItem from="1569608528208" duration="9602000" />
+      <workItem from="1569608528208" duration="10224000" />
+      <workItem from="1569621807544" duration="560000" />
+      <workItem from="1570031522489" duration="945000" />
+      <workItem from="1570047226737" duration="3698000" />
+      <workItem from="1570546936160" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="Update to IntelliJ project">
       <created>1567624506018</created>
@@ -289,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567630884996</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spring Assignment&#10;1) Create Bean Classes for persona and weapon.&#10;2) Create Service Classes LogServiceToConsole and LogServiceToFile, implementations of LogService interface.&#10;3) Create Properties File data.properties with data for persona and weapon.&#10;4) Configure Spring Config XML File to load the properties file, create a service bean for persona (LogServiceToConsole), a second service bean for weapon (LogServiceToFile) to see if I could, and create a domain bean.&#10;5) Create Dependency Injections. Setter injection provides the service to the persona domain class bean. Constructor injection provides the service to the weapon domain class bean, again to see if it worked. Setter injection provides the literal values from the properties file.&#10;6) Configurable Service Implementation demonstrated in app by using Console for persona data and File (although it prints to console) for weapon. Could also swap by modifying the configuration XML.&#10;7) Add permanent link to Derby database in IntelliJ.">
+      <created>1569621581457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569621581458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +330,7 @@
     <MESSAGE value="Update to IntelliJ project" />
     <MESSAGE value="Add Derby database" />
     <MESSAGE value="Add Derby database.&#10;1) Embed Derby database with Biting Love universe tables. &#10;2) Add temporary code to query the database, return sample records, and display them to confirm database and data are correctly embedded." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Derby database.&#10;1) Embed Derby database with Biting Love universe tables. &#10;2) Add temporary code to query the database, return sample records, and display them to confirm database and data are correctly embedded." />
+    <MESSAGE value="Spring Assignment&#10;1) Create Bean Classes for persona and weapon.&#10;2) Create Service Classes LogServiceToConsole and LogServiceToFile, implementations of LogService interface.&#10;3) Create Properties File data.properties with data for persona and weapon.&#10;4) Configure Spring Config XML File to load the properties file, create a service bean for persona (LogServiceToConsole), a second service bean for weapon (LogServiceToFile) to see if I could, and create a domain bean.&#10;5) Create Dependency Injections. Setter injection provides the service to the persona domain class bean. Constructor injection provides the service to the weapon domain class bean, again to see if it worked. Setter injection provides the literal values from the properties file.&#10;6) Configurable Service Implementation demonstrated in app by using Console for persona data and File (although it prints to console) for weapon. Could also swap by modifying the configuration XML.&#10;7) Add permanent link to Derby database in IntelliJ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Assignment&#10;1) Create Bean Classes for persona and weapon.&#10;2) Create Service Classes LogServiceToConsole and LogServiceToFile, implementations of LogService interface.&#10;3) Create Properties File data.properties with data for persona and weapon.&#10;4) Configure Spring Config XML File to load the properties file, create a service bean for persona (LogServiceToConsole), a second service bean for weapon (LogServiceToFile) to see if I could, and create a domain bean.&#10;5) Create Dependency Injections. Setter injection provides the service to the persona domain class bean. Constructor injection provides the service to the weapon domain class bean, again to see if it worked. Setter injection provides the literal values from the properties file.&#10;6) Configurable Service Implementation demonstrated in app by using Console for persona data and File (although it prints to console) for weapon. Could also swap by modifying the configuration XML.&#10;7) Add permanent link to Derby database in IntelliJ." />
   </component>
 </project>

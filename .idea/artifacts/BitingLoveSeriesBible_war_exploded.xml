@@ -14,6 +14,8 @@
           <element id="directory" name="dbBLuniverse">
             <element id="dir-copy" path="$PROJECT_DIR$/lib/dbBLuniverse" />
           </element>
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
         </element>
       </element>
     </root>
