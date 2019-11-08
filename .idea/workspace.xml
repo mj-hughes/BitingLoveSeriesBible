@@ -7,40 +7,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18092a96-ab31-498e-9d20-c2c407247e0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/springmvc/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/springmvc/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/springmvc/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/springmvc/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springmvc/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/css/BLBible.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/nixie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/js/BLBible.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_5_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/byte-buddy-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/hibernate-core-5.4.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/META-INF/BitingLoveSeriesBible.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/HibernateApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Backstory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Custom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Glossary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Gmc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Organization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Persona.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Research.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Setting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/UnresolvedPlotPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/VPower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Weapon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Backstory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Custom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Glossary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Gmc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Research.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Setting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/UnresolvedPlotPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/VPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/BitingLoveSeriesBible_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BitingLoveSeriesBible_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitingLoveSeriesBible.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BitingLoveSeriesBible.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/META-INF/BitingLoveSeriesBible.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log2.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c161.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c171.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/searchCharacterDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/searchCharacterDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/META-INF/BitingLoveSeriesBible.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/springDemoAppContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/springxml/SpringDemoApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/log3.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c18f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c18f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1901.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1901.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1910.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1910.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1921.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1921.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1930.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1930.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1941.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1941.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1951.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1951.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1960.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1960.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1971.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1971.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1980.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1af0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1991.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b01.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b11.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19b0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19c1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19e0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19e0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19f1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a00.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a00.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a11.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a11.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a40.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a40.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a80.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a80.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a91.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1a91.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1aa0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1aa0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ab1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ab1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ac0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ac0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ad1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ad1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ae1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ae1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c2d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c2d0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c2e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c2e1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,12 +137,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="dbBLuniverse" type="feb32156:DbDataSourceImpl" />
         <item name="MHUGHES: schema" type="12aa88c4:DerbyImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="dbBLuniverse" type="feb32156:DbDataSourceImpl" />
-        <item name="MHUGHES: schema" type="12aa88c4:DerbyImplModel$Schema" />
-        <item name="PERSONA: table" type="7a557cd6:DerbyImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -108,7 +171,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/dist-java-hibernate-see-am-dao" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,7 +179,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3137931" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -140,7 +203,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.22">
+  <component name="RunManager" selected="Application.HibernateApp">
+    <configuration name="HibernateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate.HibernateApp" />
+      <module name="BitingLoveSeriesBible" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springxml.SpringApp" />
       <module name="BitingLoveSeriesBible" />
@@ -228,10 +304,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.SpringApp" />
+      <item itemvalue="Application.HibernateApp" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.22" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernateApp" />
         <item itemvalue="Application.SpringApp" />
       </list>
     </recent_temporary>
@@ -240,12 +318,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@24d229a3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -276,7 +349,17 @@
       <workItem from="1569621807544" duration="560000" />
       <workItem from="1570031522489" duration="945000" />
       <workItem from="1570047226737" duration="3698000" />
-      <workItem from="1570546936160" duration="148000" />
+      <workItem from="1570546936160" duration="1249000" />
+      <workItem from="1571256538595" duration="859000" />
+      <workItem from="1571863926544" duration="1457000" />
+      <workItem from="1572627570725" duration="366000" />
+      <workItem from="1572628988297" duration="9878000" />
+      <workItem from="1572802099200" duration="4347000" />
+      <workItem from="1572901085262" duration="2114000" />
+      <workItem from="1573074123496" duration="3111000" />
+      <workItem from="1573134633640" duration="17847000" />
+      <workItem from="1573156260864" duration="9515000" />
+      <workItem from="1573224303590" duration="10434000" />
     </task>
     <task id="LOCAL-00001" summary="Update to IntelliJ project">
       <created>1567624506018</created>
@@ -306,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569621581458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spring MVC Lab: Part 1&#10;1) Add Spring MVC to project&#10;2) Add WEB-INF subdirectories: view, resources. Add resources subdirectories: img, js, css.&#10;3) Add static resources to new locations&#10;4) Create applicationContext.xml, dispatcher-servlet.xml&#10;5) Configure applicationContext.xml, dispatcher-servlet.xml, web.xml&#10;6) Create index.jsp page&#10;7) Add src subdirectory: springmvc&#10;8) Create class HomeController, annotate with @Controller, and create @RequestMapping for index.jsp">
+      <created>1570547929267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570547929267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,11 +416,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update to IntelliJ project" />
     <MESSAGE value="Add Derby database" />
     <MESSAGE value="Add Derby database.&#10;1) Embed Derby database with Biting Love universe tables. &#10;2) Add temporary code to query the database, return sample records, and display them to confirm database and data are correctly embedded." />
     <MESSAGE value="Spring Assignment&#10;1) Create Bean Classes for persona and weapon.&#10;2) Create Service Classes LogServiceToConsole and LogServiceToFile, implementations of LogService interface.&#10;3) Create Properties File data.properties with data for persona and weapon.&#10;4) Configure Spring Config XML File to load the properties file, create a service bean for persona (LogServiceToConsole), a second service bean for weapon (LogServiceToFile) to see if I could, and create a domain bean.&#10;5) Create Dependency Injections. Setter injection provides the service to the persona domain class bean. Constructor injection provides the service to the weapon domain class bean, again to see if it worked. Setter injection provides the literal values from the properties file.&#10;6) Configurable Service Implementation demonstrated in app by using Console for persona data and File (although it prints to console) for weapon. Could also swap by modifying the configuration XML.&#10;7) Add permanent link to Derby database in IntelliJ." />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Assignment&#10;1) Create Bean Classes for persona and weapon.&#10;2) Create Service Classes LogServiceToConsole and LogServiceToFile, implementations of LogService interface.&#10;3) Create Properties File data.properties with data for persona and weapon.&#10;4) Configure Spring Config XML File to load the properties file, create a service bean for persona (LogServiceToConsole), a second service bean for weapon (LogServiceToFile) to see if I could, and create a domain bean.&#10;5) Create Dependency Injections. Setter injection provides the service to the persona domain class bean. Constructor injection provides the service to the weapon domain class bean, again to see if it worked. Setter injection provides the literal values from the properties file.&#10;6) Configurable Service Implementation demonstrated in app by using Console for persona data and File (although it prints to console) for weapon. Could also swap by modifying the configuration XML.&#10;7) Add permanent link to Derby database in IntelliJ." />
+    <MESSAGE value="Spring MVC Lab: Part 1&#10;1) Add Spring MVC to project&#10;2) Add WEB-INF subdirectories: view, resources. Add resources subdirectories: img, js, css.&#10;3) Add static resources to new locations&#10;4) Create applicationContext.xml, dispatcher-servlet.xml&#10;5) Configure applicationContext.xml, dispatcher-servlet.xml, web.xml&#10;6) Create index.jsp page&#10;7) Add src subdirectory: springmvc&#10;8) Create class HomeController, annotate with @Controller, and create @RequestMapping for index.jsp" />
+    <MESSAGE value="Hibernate Lab&#10;1) Add Hibernate library and create packages&#10;2) Create entity classes for each of the tables (except bridge tables)&#10;3) Create a Hibernate application with CRUD statements for each entity class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hibernate Lab&#10;1) Add Hibernate library and create packages&#10;2) Create entity classes for each of the tables (except bridge tables)&#10;3) Create a Hibernate application with CRUD statements for each entity class" />
   </component>
 </project>
