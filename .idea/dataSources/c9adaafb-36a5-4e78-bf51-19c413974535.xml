@@ -22,422 +22,467 @@
     <table id="15" parent="3" name="CUSTOM"/>
     <table id="16" parent="3" name="GLOSSARY"/>
     <table id="17" parent="3" name="GMC"/>
-    <table id="18" parent="3" name="ORGANIZATION"/>
-    <table id="19" parent="3" name="PERSONA"/>
-    <table id="20" parent="3" name="PERSONA_BACKSTORY"/>
-    <table id="21" parent="3" name="PERSONA_BOOK"/>
-    <table id="22" parent="3" name="PERSONA_WEAPON"/>
-    <table id="23" parent="3" name="RESEARCH"/>
-    <table id="24" parent="3" name="SETTING"/>
-    <table id="25" parent="3" name="UNRESOLVED_PLOT_POINT"/>
-    <table id="26" parent="3" name="VPOWER"/>
-    <table id="27" parent="3" name="WEAPON"/>
-    <column id="28" parent="14" name="BOOK_ID">
+    <table id="18" parent="3" name="OLD_PERSONA"/>
+    <table id="19" parent="3" name="ORGANIZATION"/>
+    <table id="20" parent="3" name="PERSONA"/>
+    <table id="21" parent="3" name="PERSONA_BACKSTORY"/>
+    <table id="22" parent="3" name="PERSONA_BOOK"/>
+    <table id="23" parent="3" name="PERSONA_WEAPON"/>
+    <table id="24" parent="3" name="RESEARCH"/>
+    <table id="25" parent="3" name="SETTING"/>
+    <table id="26" parent="3" name="UNRESOLVED_PLOT_POINT"/>
+    <table id="27" parent="3" name="VPOWER"/>
+    <table id="28" parent="3" name="WEAPON"/>
+    <column id="29" parent="14" name="BOOK_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="29" parent="14" name="TITLE">
+    <column id="30" parent="14" name="TITLE">
       <Position>2</Position>
       <DataType>VARCHAR(100)|12s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="30" parent="14" name="BOOK_YEAR">
+    <column id="31" parent="14" name="BOOK_YEAR">
       <Position>3</Position>
       <DataType>INTEGER|4s</DataType>
     </column>
-    <column id="31" parent="14" name="BOOK_MONTH">
+    <column id="32" parent="14" name="BOOK_MONTH">
       <Position>4</Position>
       <DataType>INTEGER|4s</DataType>
     </column>
-    <index id="32" parent="14" name="SQL0000000039-c87241cf-016d-2b19-0ea1-00000ed73a40">
+    <index id="33" parent="14" name="SQL0000000039-c87241cf-016d-2b19-0ea1-00000ed73a40">
       <ColNames>BOOK_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="33" parent="14" name="SQL0000000039-c87241cf-016d-2b19-0ea1-00000ed73a40">
+    <key id="34" parent="14" name="SQL0000000039-c87241cf-016d-2b19-0ea1-00000ed73a40">
       <ColNames>BOOK_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="34" parent="15" name="CUSTOM_ID">
+    <column id="35" parent="15" name="CUSTOM_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="35" parent="15" name="CUSTOM_NAME">
+    <column id="36" parent="15" name="CUSTOM_NAME">
       <Position>2</Position>
       <DataType>VARCHAR(75)|12s</DataType>
     </column>
-    <column id="36" parent="15" name="DESCRIPTION">
+    <column id="37" parent="15" name="DESCRIPTION">
       <Position>3</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <index id="37" parent="15" name="SQL0000000045-59c18204-016d-2b19-0ea1-00000ed73a40">
+    <index id="38" parent="15" name="SQL0000000045-59c18204-016d-2b19-0ea1-00000ed73a40">
       <ColNames>CUSTOM_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="38" parent="15" name="SQL0000000045-59c18204-016d-2b19-0ea1-00000ed73a40">
+    <key id="39" parent="15" name="SQL0000000045-59c18204-016d-2b19-0ea1-00000ed73a40">
       <ColNames>CUSTOM_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="39" parent="16" name="GLOSSARY_ID">
+    <column id="40" parent="16" name="GLOSSARY_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="40" parent="16" name="GLOSSARY_NAME">
+    <column id="41" parent="16" name="GLOSSARY_NAME">
       <Position>2</Position>
       <DataType>VARCHAR(75)|12s</DataType>
     </column>
-    <column id="41" parent="16" name="DESCRIPTION">
+    <column id="42" parent="16" name="DESCRIPTION">
       <Position>3</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <index id="42" parent="16" name="SQL0000000050-3a7ec233-016d-2b19-0ea1-00000ed73a40">
+    <index id="43" parent="16" name="SQL0000000050-3a7ec233-016d-2b19-0ea1-00000ed73a40">
       <ColNames>GLOSSARY_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="43" parent="16" name="SQL0000000050-3a7ec233-016d-2b19-0ea1-00000ed73a40">
+    <key id="44" parent="16" name="SQL0000000050-3a7ec233-016d-2b19-0ea1-00000ed73a40">
       <ColNames>GLOSSARY_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="44" parent="17" name="GMC_ID">
+    <column id="45" parent="17" name="GMC_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="45" parent="17" name="PERSONA_ID">
+    <column id="46" parent="17" name="PERSONA_ID">
       <Position>2</Position>
       <DataType>INTEGER|4s</DataType>
     </column>
-    <column id="46" parent="17" name="GMC_TYPE">
+    <column id="47" parent="17" name="GMC_TYPE">
       <Position>3</Position>
       <DataType>CHAR(1)|1s</DataType>
     </column>
-    <column id="47" parent="17" name="GOAL">
+    <column id="48" parent="17" name="GOAL">
       <Position>4</Position>
       <DataType>CLOB(2500)|2005s</DataType>
     </column>
-    <column id="48" parent="17" name="MOTIVATION">
+    <column id="49" parent="17" name="MOTIVATION">
       <Position>5</Position>
       <DataType>CLOB(2500)|2005s</DataType>
     </column>
-    <column id="49" parent="17" name="CONFLICT">
+    <column id="50" parent="17" name="CONFLICT">
       <Position>6</Position>
       <DataType>CLOB(2500)|2005s</DataType>
     </column>
-    <index id="50" parent="17" name="SQL0000000042-366f81ed-016d-2b19-0ea1-00000ed73a40">
+    <index id="51" parent="17" name="SQL0000000042-366f81ed-016d-2b19-0ea1-00000ed73a40">
       <ColNames>GMC_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="51" parent="17" name="SQL0000000043-1eeac1ee-016d-2b19-0ea1-00000ed73a40">
+    <index id="52" parent="17" name="SQL0000000043-1eeac1ee-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
     </index>
-    <key id="52" parent="17" name="SQL0000000042-366f81ed-016d-2b19-0ea1-00000ed73a40">
+    <key id="53" parent="17" name="SQL0000000042-366f81ed-016d-2b19-0ea1-00000ed73a40">
       <ColNames>GMC_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="53" parent="17" name="SQL0000000043-1eeac1ee-016d-2b19-0ea1-00000ed73a40">
+    <foreign-key id="54" parent="17" name="SQL0000000043-1eeac1ee-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
-      <RefTableName>PERSONA</RefTableName>
+      <RefTableName>OLD_PERSONA</RefTableName>
       <RefKeyName>SQL0000000035-0212c1ae-016d-2b19-0ea1-00000ed73a40</RefKeyName>
       <RefColNames>PERSONA_ID</RefColNames>
     </foreign-key>
-    <column id="54" parent="18" name="ORGANIZATION_ID">
+    <column id="55" parent="18" name="PERSONA_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="55" parent="18" name="ORGANIZATION_NAME">
-      <Position>2</Position>
-      <DataType>VARCHAR(75)|12s</DataType>
-    </column>
-    <column id="56" parent="18" name="DESCRIPTION">
-      <Position>3</Position>
-      <DataType>VARCHAR(255)|12s</DataType>
-    </column>
-    <index id="57" parent="18" name="SQL0000000047-44050218-016d-2b19-0ea1-00000ed73a40">
-      <ColNames>ORGANIZATION_ID</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="58" parent="18" name="SQL0000000047-44050218-016d-2b19-0ea1-00000ed73a40">
-      <ColNames>ORGANIZATION_ID</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="59" parent="19" name="PERSONA_ID">
-      <Position>1</Position>
-      <DataType>INTEGER|4s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
-    </column>
-    <column id="60" parent="19" name="NAME">
+    <column id="56" parent="18" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR(75)|12s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="61" parent="19" name="AGE_YEAR_ZERO">
+    <column id="57" parent="18" name="AGE_YEAR_ZERO">
       <Position>3</Position>
       <DataType>INTEGER|4s</DataType>
     </column>
-    <column id="62" parent="19" name="HEIGHT">
+    <column id="58" parent="18" name="HEIGHT">
       <Position>4</Position>
       <DataType>VARCHAR(10)|12s</DataType>
     </column>
-    <column id="63" parent="19" name="EYE_COLOR">
+    <column id="59" parent="18" name="EYE_COLOR">
       <Position>5</Position>
       <DataType>CHAR(6)|1s</DataType>
     </column>
-    <column id="64" parent="19" name="HAIR_COLOR">
+    <column id="60" parent="18" name="HAIR_COLOR">
       <Position>6</Position>
       <DataType>VARCHAR(20)|12s</DataType>
     </column>
-    <column id="65" parent="19" name="BODY_TYPE">
+    <column id="61" parent="18" name="BODY_TYPE">
       <Position>7</Position>
       <DataType>VARCHAR(50)|12s</DataType>
     </column>
-    <column id="66" parent="19" name="PICTURE_LINK">
+    <column id="62" parent="18" name="PICTURE_LINK">
       <Position>8</Position>
       <DataType>VARCHAR(120)|12s</DataType>
     </column>
-    <column id="67" parent="19" name="NOTES">
+    <column id="63" parent="18" name="NOTES">
       <Position>9</Position>
       <DataType>CLOB(2500)|2005s</DataType>
     </column>
-    <index id="68" parent="19" name="SQL0000000035-0212c1ae-016d-2b19-0ea1-00000ed73a40">
+    <index id="64" parent="18" name="SQL0000000035-0212c1ae-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="69" parent="19" name="SQL0000000035-0212c1ae-016d-2b19-0ea1-00000ed73a40">
+    <key id="65" parent="18" name="SQL0000000035-0212c1ae-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="70" parent="20" name="BACKSTORY_ID">
+    <column id="66" parent="19" name="ORGANIZATION_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
+    <column id="67" parent="19" name="ORGANIZATION_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(75)|12s</DataType>
+    </column>
+    <column id="68" parent="19" name="DESCRIPTION">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <index id="69" parent="19" name="SQL0000000047-44050218-016d-2b19-0ea1-00000ed73a40">
+      <ColNames>ORGANIZATION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="70" parent="19" name="SQL0000000047-44050218-016d-2b19-0ea1-00000ed73a40">
+      <ColNames>ORGANIZATION_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
     <column id="71" parent="20" name="PERSONA_ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
+    </column>
+    <column id="72" parent="20" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(75)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="20" name="AGE_YEAR_ZERO">
+      <Position>3</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="74" parent="20" name="HEIGHT">
+      <Position>4</Position>
+      <DataType>VARCHAR(10)|12s</DataType>
+    </column>
+    <column id="75" parent="20" name="EYE_COLOR">
+      <Position>5</Position>
+      <DataType>CHAR(7)|1s</DataType>
+    </column>
+    <column id="76" parent="20" name="HAIR_COLOR">
+      <Position>6</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="77" parent="20" name="BODY_TYPE">
+      <Position>7</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+    </column>
+    <column id="78" parent="20" name="PICTURE_LINK">
+      <Position>8</Position>
+      <DataType>VARCHAR(120)|12s</DataType>
+    </column>
+    <column id="79" parent="20" name="NOTES">
+      <Position>9</Position>
+      <DataType>CLOB(2500)|2005s</DataType>
+    </column>
+    <index id="80" parent="20" name="SQL0000000000-09324032-016e-bead-fae8-00000ecc1fe8">
+      <ColNames>PERSONA_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="81" parent="20" name="SQL0000000000-09324032-016e-bead-fae8-00000ecc1fe8">
+      <ColNames>PERSONA_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="82" parent="21" name="BACKSTORY_ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
+    </column>
+    <column id="83" parent="21" name="PERSONA_ID">
       <Position>2</Position>
       <DataType>INTEGER|4s</DataType>
     </column>
-    <column id="72" parent="20" name="BACKSTORY_NAME">
+    <column id="84" parent="21" name="BACKSTORY_NAME">
       <Position>3</Position>
       <DataType>VARCHAR(75)|12s</DataType>
     </column>
-    <column id="73" parent="20" name="DESCRIPTION">
+    <column id="85" parent="21" name="DESCRIPTION">
       <Position>4</Position>
       <DataType>CLOB(2500)|2005s</DataType>
     </column>
-    <index id="74" parent="20" name="SQL0000000051-beebc23b-016d-2b19-0ea1-00000ed73a40">
+    <index id="86" parent="21" name="SQL0000000051-beebc23b-016d-2b19-0ea1-00000ed73a40">
       <ColNames>BACKSTORY_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="75" parent="20" name="SQL0000000052-b77a823c-016d-2b19-0ea1-00000ed73a40">
+    <index id="87" parent="21" name="SQL0000000052-b77a823c-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
     </index>
-    <key id="76" parent="20" name="SQL0000000051-beebc23b-016d-2b19-0ea1-00000ed73a40">
+    <key id="88" parent="21" name="SQL0000000051-beebc23b-016d-2b19-0ea1-00000ed73a40">
       <ColNames>BACKSTORY_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="77" parent="20" name="SQL0000000052-b77a823c-016d-2b19-0ea1-00000ed73a40">
+    <foreign-key id="89" parent="21" name="SQL0000000052-b77a823c-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
-      <RefTableName>PERSONA</RefTableName>
+      <RefTableName>OLD_PERSONA</RefTableName>
       <RefKeyName>SQL0000000035-0212c1ae-016d-2b19-0ea1-00000ed73a40</RefKeyName>
       <RefColNames>PERSONA_ID</RefColNames>
     </foreign-key>
-    <column id="78" parent="21" name="PERSONA_ID">
+    <column id="90" parent="22" name="PERSONA_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
     </column>
-    <column id="79" parent="21" name="BOOK_ID">
+    <column id="91" parent="22" name="BOOK_ID">
       <Position>2</Position>
       <DataType>INTEGER|4s</DataType>
     </column>
-    <column id="80" parent="21" name="GMC_ID">
+    <column id="92" parent="22" name="ROLE">
       <Position>3</Position>
-      <DataType>INTEGER|4s</DataType>
-    </column>
-    <column id="81" parent="21" name="ROLE">
-      <Position>4</Position>
       <DataType>VARCHAR(75)|12s</DataType>
     </column>
-    <index id="82" parent="21" name="SQL0000000040-f0bc01e1-016d-2b19-0ea1-00000ed73a40">
+    <index id="93" parent="22" name="SQL0000000040-f0bc01e1-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
     </index>
-    <index id="83" parent="21" name="SQL0000000041-f93441e2-016d-2b19-0ea1-00000ed73a40">
+    <index id="94" parent="22" name="SQL0000000041-f93441e2-016d-2b19-0ea1-00000ed73a40">
       <ColNames>BOOK_ID</ColNames>
     </index>
-    <foreign-key id="84" parent="21" name="SQL0000000040-f0bc01e1-016d-2b19-0ea1-00000ed73a40">
+    <foreign-key id="95" parent="22" name="SQL0000000040-f0bc01e1-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
-      <RefTableName>PERSONA</RefTableName>
+      <RefTableName>OLD_PERSONA</RefTableName>
       <RefKeyName>SQL0000000035-0212c1ae-016d-2b19-0ea1-00000ed73a40</RefKeyName>
       <RefColNames>PERSONA_ID</RefColNames>
     </foreign-key>
-    <foreign-key id="85" parent="21" name="SQL0000000041-f93441e2-016d-2b19-0ea1-00000ed73a40">
+    <foreign-key id="96" parent="22" name="SQL0000000041-f93441e2-016d-2b19-0ea1-00000ed73a40">
       <ColNames>BOOK_ID</ColNames>
       <RefTableName>BOOK</RefTableName>
       <RefKeyName>SQL0000000039-c87241cf-016d-2b19-0ea1-00000ed73a40</RefKeyName>
       <RefColNames>BOOK_ID</RefColNames>
     </foreign-key>
-    <column id="86" parent="22" name="PERSONA_ID">
+    <column id="97" parent="23" name="PERSONA_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
     </column>
-    <column id="87" parent="22" name="WEAPON_ID">
+    <column id="98" parent="23" name="WEAPON_ID">
       <Position>2</Position>
       <DataType>INTEGER|4s</DataType>
     </column>
-    <index id="88" parent="22" name="SQL0000000037-a3fa81c5-016d-2b19-0ea1-00000ed73a40">
+    <index id="99" parent="23" name="SQL0000000037-a3fa81c5-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
     </index>
-    <index id="89" parent="22" name="SQL0000000038-4c6bc1c6-016d-2b19-0ea1-00000ed73a40">
+    <index id="100" parent="23" name="SQL0000000038-4c6bc1c6-016d-2b19-0ea1-00000ed73a40">
       <ColNames>WEAPON_ID</ColNames>
     </index>
-    <foreign-key id="90" parent="22" name="SQL0000000037-a3fa81c5-016d-2b19-0ea1-00000ed73a40">
+    <foreign-key id="101" parent="23" name="SQL0000000037-a3fa81c5-016d-2b19-0ea1-00000ed73a40">
       <ColNames>PERSONA_ID</ColNames>
-      <RefTableName>PERSONA</RefTableName>
+      <RefTableName>OLD_PERSONA</RefTableName>
       <RefKeyName>SQL0000000035-0212c1ae-016d-2b19-0ea1-00000ed73a40</RefKeyName>
       <RefColNames>PERSONA_ID</RefColNames>
     </foreign-key>
-    <foreign-key id="91" parent="22" name="SQL0000000038-4c6bc1c6-016d-2b19-0ea1-00000ed73a40">
+    <foreign-key id="102" parent="23" name="SQL0000000038-4c6bc1c6-016d-2b19-0ea1-00000ed73a40">
       <ColNames>WEAPON_ID</ColNames>
       <RefTableName>WEAPON</RefTableName>
       <RefKeyName>SQL0000000036-207981bd-016d-2b19-0ea1-00000ed73a40</RefKeyName>
       <RefColNames>WEAPON_ID</RefColNames>
     </foreign-key>
-    <column id="92" parent="23" name="RESEARCH_ID">
+    <column id="103" parent="24" name="RESEARCH_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="93" parent="23" name="RESEARCH_NAME">
+    <column id="104" parent="24" name="RESEARCH_NAME">
       <Position>2</Position>
       <DataType>VARCHAR(75)|12s</DataType>
     </column>
-    <column id="94" parent="23" name="DESCRIPTION">
+    <column id="105" parent="24" name="DESCRIPTION">
       <Position>3</Position>
       <DataType>CLOB(2500)|2005s</DataType>
     </column>
-    <index id="95" parent="23" name="SQL0000000049-b621c22b-016d-2b19-0ea1-00000ed73a40">
+    <index id="106" parent="24" name="SQL0000000049-b621c22b-016d-2b19-0ea1-00000ed73a40">
       <ColNames>RESEARCH_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="96" parent="23" name="SQL0000000049-b621c22b-016d-2b19-0ea1-00000ed73a40">
+    <key id="107" parent="24" name="SQL0000000049-b621c22b-016d-2b19-0ea1-00000ed73a40">
       <ColNames>RESEARCH_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="97" parent="24" name="SETTING_ID">
+    <column id="108" parent="25" name="SETTING_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="98" parent="24" name="SETTING_NAME">
+    <column id="109" parent="25" name="SETTING_NAME">
       <Position>2</Position>
       <DataType>VARCHAR(75)|12s</DataType>
     </column>
-    <column id="99" parent="24" name="DESCRIPTION">
+    <column id="110" parent="25" name="DESCRIPTION">
       <Position>3</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <index id="100" parent="24" name="SQL0000000044-7c4701f9-016d-2b19-0ea1-00000ed73a40">
+    <index id="111" parent="25" name="SQL0000000044-7c4701f9-016d-2b19-0ea1-00000ed73a40">
       <ColNames>SETTING_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="101" parent="24" name="SQL0000000044-7c4701f9-016d-2b19-0ea1-00000ed73a40">
+    <key id="112" parent="25" name="SQL0000000044-7c4701f9-016d-2b19-0ea1-00000ed73a40">
       <ColNames>SETTING_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="102" parent="25" name="UNRESOLVED_PLOT_POINT_ID">
+    <column id="113" parent="26" name="UNRESOLVED_PLOT_POINT_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="103" parent="25" name="UNRESOLVED_PLOT_POINT_NAME">
+    <column id="114" parent="26" name="UNRESOLVED_PLOT_POINT_NAME">
       <Position>2</Position>
       <DataType>VARCHAR(75)|12s</DataType>
     </column>
-    <column id="104" parent="25" name="UNRESOLVED_PLOT_POINT_RESOLVED">
+    <column id="115" parent="26" name="UNRESOLVED_PLOT_POINT_RESOLVED">
       <Position>3</Position>
       <DataType>VARCHAR(75)|12s</DataType>
     </column>
-    <column id="105" parent="25" name="DESCRIPTION">
+    <column id="116" parent="26" name="DESCRIPTION">
       <Position>4</Position>
       <DataType>CLOB(2500)|2005s</DataType>
     </column>
-    <index id="106" parent="25" name="SQL0000000048-31d4c223-016d-2b19-0ea1-00000ed73a40">
+    <index id="117" parent="26" name="SQL0000000048-31d4c223-016d-2b19-0ea1-00000ed73a40">
       <ColNames>UNRESOLVED_PLOT_POINT_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="107" parent="25" name="SQL0000000048-31d4c223-016d-2b19-0ea1-00000ed73a40">
+    <key id="118" parent="26" name="SQL0000000048-31d4c223-016d-2b19-0ea1-00000ed73a40">
       <ColNames>UNRESOLVED_PLOT_POINT_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="108" parent="26" name="POWER_ID">
+    <column id="119" parent="27" name="POWER_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="109" parent="26" name="POWER_NAME">
+    <column id="120" parent="27" name="POWER_NAME">
       <Position>2</Position>
       <DataType>VARCHAR(75)|12s</DataType>
     </column>
-    <column id="110" parent="26" name="DESCRIPTION">
+    <column id="121" parent="27" name="DESCRIPTION">
       <Position>3</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="111" parent="26" name="MECHANISM">
+    <column id="122" parent="27" name="MECHANISM">
       <Position>4</Position>
       <DataType>CLOB(2500)|2005s</DataType>
     </column>
-    <index id="112" parent="26" name="SQL0000000046-4653820d-016d-2b19-0ea1-00000ed73a40">
+    <index id="123" parent="27" name="SQL0000000046-4653820d-016d-2b19-0ea1-00000ed73a40">
       <ColNames>POWER_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="113" parent="26" name="SQL0000000046-4653820d-016d-2b19-0ea1-00000ed73a40">
+    <key id="124" parent="27" name="SQL0000000046-4653820d-016d-2b19-0ea1-00000ed73a40">
       <ColNames>POWER_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="114" parent="27" name="WEAPON_ID">
+    <column id="125" parent="28" name="WEAPON_ID">
       <Position>1</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
     </column>
-    <column id="115" parent="27" name="WEAPON_NAME">
+    <column id="126" parent="28" name="WEAPON_NAME">
       <Position>2</Position>
       <DataType>VARCHAR(75)|12s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="116" parent="27" name="DESCRIPTION">
+    <column id="127" parent="28" name="DESCRIPTION">
       <Position>3</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <index id="117" parent="27" name="SQL0000000036-207981bd-016d-2b19-0ea1-00000ed73a40">
+    <index id="128" parent="28" name="SQL0000000036-207981bd-016d-2b19-0ea1-00000ed73a40">
       <ColNames>WEAPON_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="118" parent="27" name="SQL0000000036-207981bd-016d-2b19-0ea1-00000ed73a40">
+    <key id="129" parent="28" name="SQL0000000036-207981bd-016d-2b19-0ea1-00000ed73a40">
       <ColNames>WEAPON_ID</ColNames>
       <Primary>1</Primary>
     </key>

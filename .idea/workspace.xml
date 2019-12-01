@@ -2,73 +2,188 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="BitingLoveSeriesBible:war exploded" />
+      <artifact name="BitingLoveSeriesBible" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18092a96-ab31-498e-9d20-c2c407247e0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_5_5_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/byte-buddy-1.9.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/classmate-1.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/hibernate-core-5.4.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/jandex-2.0.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/META-INF/BitingLoveSeriesBible.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/HibernateApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Backstory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Custom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Glossary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Gmc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Organization.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Persona.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Research.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Setting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/UnresolvedPlotPoint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/VPower.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Weapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Backstory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Custom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Glossary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Gmc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Research.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/UnresolvedPlotPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/VPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BitingLoveSeriesBible_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BitingLoveSeriesBible_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_mchange_c3p0_0_9_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_hibernate_validator_hibernate_validator_6_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MHUGHES_PERSONA.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/c3p0/c3p0-0.9.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/c3p0/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fileupload/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fileupload/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jstl/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/validator/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/validator/hibernate-validator-6.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/validator/jakarta.validation-api-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/validator/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/HibernateApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/controller/PersonaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/dao/BookDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/dao/BookDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/dao/PersonaDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/dao/PersonaDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Backstory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Custom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Glossary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Gmc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Organization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Persona.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Research.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Setting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/UnresolvedPlotPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/VPower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/entity/Weapon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/service/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/service/ImageFileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/service/ImageFileServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/service/PersonaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/service/PersonaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/hibernate/service/converter/StringToBookConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/byte-buddy-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/log/log.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/log/log3.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/log/logmirror.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c171.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1921.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1960.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c19b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c19c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c19d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a00.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a40.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a80.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1af0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1b11.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1b20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1b31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c230.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/cb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/hibernate-core-5.4.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/hibernate-validator-6.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/notFound/PunkNixie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/notFound/PunkSanta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/notFound/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/aiden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/bo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/elena.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/julian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/kat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/liese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/logan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/nikos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/nixie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/pictureNotFound.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/ryker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/img/persona/twyla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/view/add-book-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/view/add-persona-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/view/errors.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/view/list-books.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/view/list-personas.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/controller/PersonaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/dao/BookDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/dao/BookDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/dao/PersonaDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/dao/PersonaDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/service/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/service/ImageFileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/service/ImageFileServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/service/PersonaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/service/PersonaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/service/converter/StringToBookConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/controller/PersonaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/BookDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/PersonaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/PersonaDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/ImageFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/ImageFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/PersonaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/PersonaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/converter/StringToBookConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/notFound/PunkNixie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/notFound/PunkSanta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/notFound/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/Ryker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/aiden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/bo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/elena.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/julian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/kat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/liese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/logan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/nikos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/nixie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/pictureNotFound.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/persona/twyla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/add-book-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/add-persona-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/errors.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/list-books.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/list-personas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BitingLoveSeriesBible_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BitingLoveSeriesBible.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c9adaafb-36a5-4e78-bf51-19c413974535.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c9adaafb-36a5-4e78-bf51-19c413974535.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BitingLoveSeriesBible.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BitingLoveSeriesBible.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log2.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/log3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/log3.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c161.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c141.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c18f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c18f0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1901.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1901.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1910.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1910.dat" afterDir="false" />
@@ -78,9 +193,6 @@
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1951.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1951.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1960.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1960.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1971.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1971.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1980.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1af0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1991.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b01.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b11.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19b0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19c1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c19d1.dat" afterDir="false" />
@@ -101,15 +213,213 @@
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ac0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ac0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ad1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ad1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ae1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1ae1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1af0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1af0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b01.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b01.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b11.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b11.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c2d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c2d0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c2e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c2e1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c31.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c411.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c411.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c421.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c421.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c81.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c90.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/ca1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/DatabaseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/DatabaseUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/ListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/ListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/SearchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/Servlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/Servlet1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/springmvc/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/springmvc/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/springxml/SpringApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/springxml/SpringApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/springxml/beans/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/springxml/beans/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/springxml/beans/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/springxml/beans/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/springxml/beans/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/springxml/beans/Weapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/springxml/services/LogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/springxml/services/LogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/springxml/services/LogServiceToConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/springxml/services/LogServiceToConsole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/classes/springxml/services/LogServiceToFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/classes/springxml/services/LogServiceToFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/db.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/log3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c18f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/log/logmirror.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c10.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c130.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1aa0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c19e0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1930.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c180.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c180.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c18f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1901.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dbBLuniverse/seg0/c1b31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c191.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c191.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1910.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1921.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1901.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1930.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1941.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1941.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1951.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1951.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1960.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1971.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1971.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1980.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1991.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c19a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c19b0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c19c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c2e1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c19d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1b01.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c19e0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c19f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c19f1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a00.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a11.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a11.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a40.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a60.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a80.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1910.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1a91.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1a91.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1aa0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1ab1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1ab1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1ac0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1ad1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1ad1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1ae1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1ae1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1c0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1e0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1e0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c1f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1f1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c200.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c200.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c211.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c211.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c221.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c221.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c1ac0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c241.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c251.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c251.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c260.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c260.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c271.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c271.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c281.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c281.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c290.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c290.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c2a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c2b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c2c1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c2d0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c2f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c2f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c300.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c300.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c311.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c311.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c321.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c321.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c331.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c331.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c340.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c340.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c351.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c351.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c361.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c361.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c371.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c371.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c380.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c380.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c391.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c391.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c3a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c3b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c3c0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c3d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c3e1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c3f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c3f1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c411.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c411.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c421.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c421.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c430.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c430.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c441.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c441.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c451.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c451.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c461.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c461.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c470.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c470.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c481.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c481.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cb1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cc0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/cc0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cd1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/cd1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/ce1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/ce1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/dbBLuniverse/service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/dbBLuniverse/service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/derby.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/derby.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/derbyshared.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/derbyshared.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/derbytools.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/derbytools.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/resources/css/BLBible.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/resources/img/nixie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/resources/js/BLBible.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/js/BLBible.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/_pageTemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/css/BLBible.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible/WEB-INF/resources/css/BLBible.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/images/nixie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/itemDetailNixie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/itemEditDetailNixie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/itemListCharacter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/js/BLBible.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BitingLoveSeriesBible_war_exploded/searchCharacterDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/META-INF/BitingLoveSeriesBible.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/HibernateApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/HibernateApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitingLoveSeriesBible/hibernate/entity/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/resources/css/BLBible.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/css/BLBible.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/resources/img/nixie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/_pageTemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/BLBible.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/nixie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/itemDetailNixie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/itemEditDetailNixie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/itemListCharacter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/BLBible.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/searchCharacterDetail.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,9 +454,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -168,10 +478,15 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="derby" />
+    <property name="Downloaded.Files.Path" value="C:\Users\Mary\OneDrive - Waukesha County Technical College\Distributed Java 152-197-002\SeriesBibleProject\BitingLoveSeriesBible\lib\validator" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/dist-java-hibernate-see-am-dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MHUGHES_PERSONA.sql" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -190,6 +505,10 @@
       <recent name="C:\Users\bitstudent\OneDrive - Waukesha County Technical College\Distributed Java 152-197-002\SeriesBibleProject\BitingLoveSeriesBible\web\WEB-INF\resources\img" />
       <recent name="C:\Users\bitstudent\OneDrive - Waukesha County Technical College\Distributed Java 152-197-002\SeriesBibleProject\BitingLoveSeriesBible\web\WEB-INF\resources\css" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hibernate.service" />
+      <recent name="hibernate.dao" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,7 +522,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HibernateApp">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.22">
     <configuration name="HibernateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hibernate.HibernateApp" />
       <module name="BitingLoveSeriesBible" />
@@ -233,7 +552,7 @@
     <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/BitingLoveSeriesBible" />
       <deployment>
-        <artifact name="BitingLoveSeriesBible:war exploded">
+        <artifact name="BitingLoveSeriesBible">
           <settings>
             <option name="CONTEXT_PATH" value="/BitingLoveSeriesBible" />
           </settings>
@@ -298,7 +617,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="BitingLoveSeriesBible:war exploded" />
+          <artifact name="BitingLoveSeriesBible" />
         </option>
       </method>
     </configuration>
@@ -359,7 +678,17 @@
       <workItem from="1573074123496" duration="3111000" />
       <workItem from="1573134633640" duration="17847000" />
       <workItem from="1573156260864" duration="9515000" />
-      <workItem from="1573224303590" duration="10434000" />
+      <workItem from="1573224303590" duration="11182000" />
+      <workItem from="1573573450513" duration="37000" />
+      <workItem from="1573575841627" duration="56000" />
+      <workItem from="1573594582135" duration="36000" />
+      <workItem from="1573595042787" duration="554000" />
+      <workItem from="1573744805018" duration="22000" />
+      <workItem from="1574283971396" duration="93000" />
+      <workItem from="1574958809395" duration="20213000" />
+      <workItem from="1575038497288" duration="22677000" />
+      <workItem from="1575149782408" duration="9080000" />
+      <workItem from="1575222264567" duration="14771000" />
     </task>
     <task id="LOCAL-00001" summary="Update to IntelliJ project">
       <created>1567624506018</created>
@@ -396,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570547929267</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hibernate Lab&#10;1) Add Hibernate library and create packages&#10;2) Create entity classes for each of the tables (except bridge tables)&#10;3) Create a Hibernate application with CRUD statements for each entity class">
+      <created>1573235375412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573235375412</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,6 +760,7 @@
     <MESSAGE value="Spring Assignment&#10;1) Create Bean Classes for persona and weapon.&#10;2) Create Service Classes LogServiceToConsole and LogServiceToFile, implementations of LogService interface.&#10;3) Create Properties File data.properties with data for persona and weapon.&#10;4) Configure Spring Config XML File to load the properties file, create a service bean for persona (LogServiceToConsole), a second service bean for weapon (LogServiceToFile) to see if I could, and create a domain bean.&#10;5) Create Dependency Injections. Setter injection provides the service to the persona domain class bean. Constructor injection provides the service to the weapon domain class bean, again to see if it worked. Setter injection provides the literal values from the properties file.&#10;6) Configurable Service Implementation demonstrated in app by using Console for persona data and File (although it prints to console) for weapon. Could also swap by modifying the configuration XML.&#10;7) Add permanent link to Derby database in IntelliJ." />
     <MESSAGE value="Spring MVC Lab: Part 1&#10;1) Add Spring MVC to project&#10;2) Add WEB-INF subdirectories: view, resources. Add resources subdirectories: img, js, css.&#10;3) Add static resources to new locations&#10;4) Create applicationContext.xml, dispatcher-servlet.xml&#10;5) Configure applicationContext.xml, dispatcher-servlet.xml, web.xml&#10;6) Create index.jsp page&#10;7) Add src subdirectory: springmvc&#10;8) Create class HomeController, annotate with @Controller, and create @RequestMapping for index.jsp" />
     <MESSAGE value="Hibernate Lab&#10;1) Add Hibernate library and create packages&#10;2) Create entity classes for each of the tables (except bridge tables)&#10;3) Create a Hibernate application with CRUD statements for each entity class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate Lab&#10;1) Add Hibernate library and create packages&#10;2) Create entity classes for each of the tables (except bridge tables)&#10;3) Create a Hibernate application with CRUD statements for each entity class" />
+    <MESSAGE value="Spring + Hibernate Web App Lab&#10;1. Add Required Libraries to Project&#10;2. Modify applicationContext.xml&#10;3. Create DAO Interfaces and Classes&#10;4. Create Service Interfaces and Classes&#10;5. Create Controllers&#10;6. Implement Site Functions&#10;  a) Displaying a list of items&#10;  b) Showing a detailed view of one item&#10;  c) Creating a new item&#10;  d) Editing an existing item&#10;  e) Deleting an item&#10;7. Add Search Capability&#10;8. Add a Custom Error Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring + Hibernate Web App Lab&#10;1. Add Required Libraries to Project&#10;2. Modify applicationContext.xml&#10;3. Create DAO Interfaces and Classes&#10;4. Create Service Interfaces and Classes&#10;5. Create Controllers&#10;6. Implement Site Functions&#10;  a) Displaying a list of items&#10;  b) Showing a detailed view of one item&#10;  c) Creating a new item&#10;  d) Editing an existing item&#10;  e) Deleting an item&#10;7. Add Search Capability&#10;8. Add a Custom Error Page" />
   </component>
 </project>

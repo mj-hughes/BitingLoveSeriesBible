@@ -8,12 +8,12 @@
     <!-- Additional open-source font from Google -->
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Mirza" rel="stylesheet">
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="resources/css/BLBible.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/BLBible.css">
 </head>
 <body>
 <div class="navGrid">
-    <button class="selectedButton" onclick="location.href='home.html'">Home</button>
-    <button class="regularButton" onclick="location.href='itemListCharacter.html'">Character</button>
+    <button class="selectedButton" onclick="location.href='/BitingLoveSeriesBible'">Home</button>
+    <button class="regularButton" onclick="location.href='/BitingLoveSeriesBible/persona/personaList'">Character</button>
     <button class="regularButton">World</button>
     <button class="regularButton">Orgs</button>
     <button class="regularButton">Plot</button>
@@ -22,7 +22,7 @@
     <h1>Biting Love Series Bible</h1>
 </header>
 <div class="bodyGrid">
-    <button class="bigFont" onclick="location.href='itemListCharacter.html'">Character</button>
+    <button class="bigFont" onclick="location.href='persona/personaList'">Character</button>
     <button class="bigFont">World</button>
     <button class="bigFont">Orgs</button>
     <button class="bigFont">Plot</button>
@@ -35,7 +35,7 @@
 
 <!-- Scripts are for jquery and this site -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="resources/js/BLBible.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/BLBible.js"></script>
 
 </body>
 </html>

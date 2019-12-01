@@ -1,6 +1,7 @@
 package hibernate.entity;
 
 import javax.persistence.*;
+import javax.validation.constraints.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,10 +12,19 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="book_id")
     private int id;
+    @NotNull (message="required")
+    @Size(min=1, max=100, message="1-100 characters")
     @Column(name="title",  unique=true, nullable = false)
     private String title;
+
+    @NotNull (message="required")
+    @Min(value=1, message="must be greater than 0")
     @Column(name="book_year")
     private int bookYear;
+
+    @NotNull (message="required")
+    @Min(value=1, message="must be 1-12")
+    @Max(value=12, message="must be 1-12")
     @Column(name="book_month")
     private int bookMonth;
     // M-to-M
@@ -82,6 +92,11 @@ public class Book {
 
     public void setPersonas(List<Persona> personas) {
         this.personas = personas;
+    }
+
+    public String getFormattedMonth() {
+        String[] months = {"Unk","Jan","Feb","Mar","Apr","May","Jun", "Jul","Aug","Sep","Oct","Nov","Dec"};
+        return months[bookMonth];
     }
 
     @Override

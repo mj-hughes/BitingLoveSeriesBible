@@ -1,6 +1,8 @@
 package hibernate.entity;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,17 +14,23 @@ public class Persona {
     @Column(name="persona_id")
     private int id;
 
+    @NotNull(message = "required")
+    @Size(min = 1, max = 30, message = "1-30 characters")
     @Column(name="name", unique=true, nullable = false)
     private String name;
 
     @Column(name="age_year_zero")
-    private int ageYearZero;
+    private Integer ageYearZero;
+
+    @Size(min=0, max=10, message="0-10 characters")
     @Column(name="height")
     private String height;
     @Column(name="eye_color")
     private String eyeColor;
+    @Size(min=0, max=20, message="0-20 characters")
     @Column(name="hair_color")
     private String hairColor;
+    @Size(min=0, max=50, message="0-50 characters")
     @Column(name="body_type")
     private String bodyType;
     @Column(name="picture_link")
@@ -67,7 +75,7 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(String name, int ageYearZero, String height, String eyeColor, String hairColor, String bodyType, String pictureLink, String notes) {
+    public Persona(String name, Integer ageYearZero, String height, String eyeColor, String hairColor, String bodyType, String pictureLink, String notes) {
         this.name = name;
         this.ageYearZero = ageYearZero;
         this.height = height;
@@ -126,11 +134,11 @@ public class Persona {
         this.name = name;
     }
 
-    public int getAgeYearZero() {
+    public Integer getAgeYearZero() {
         return ageYearZero;
     }
 
-    public void setAgeYearZero(int ageYearZero) {
+    public void setAgeYearZero(Integer ageYearZero) {
         this.ageYearZero = ageYearZero;
     }
 
@@ -180,6 +188,13 @@ public class Persona {
 
     public void setNotes(String notes) {
         this.notes = notes;
+    }
+
+    public String getImagePath() {
+        if (pictureLink==null) {
+            return "pictureNotFound.jpg";
+        }
+        return pictureLink;
     }
 
     @Override
