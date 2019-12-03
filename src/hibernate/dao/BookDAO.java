@@ -10,4 +10,6 @@ public interface BookDAO {
     void saveBook(Book theBook);
     void deleteBook(int id);
     List<Book> getBooksByName(String theSearchTerm);
+    List<Book> getBooksForPersona(int personaId);
+
 }

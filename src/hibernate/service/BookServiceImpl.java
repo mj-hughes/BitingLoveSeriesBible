@@ -38,4 +38,10 @@ public class BookServiceImpl implements BookService {
     public List<Book> getBooksByName(String theSearchTerm) {
         return bookDAO.getBooksByName(theSearchTerm);
     }
+
+    @Override
+    @Transactional
+    public List<Book> getBooksForPersona(int personaId) {
+        return bookDAO.getBooksForPersona(personaId);
+    }
 }

@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="navGrid">
-    <button class="selectedButton" onclick="location.href='/BitingLoveSeriesBibles'">Home</button>
+    <button class="selectedButton" onclick="location.href='/BitingLoveSeriesBible'">Home</button>
     <button class="regularButton" onclick="location.href='/BitingLoveSeriesBible/persona/personaList'">Character</button>
     <button class="regularButton">World</button>
     <button class="regularButton">Orgs</button>

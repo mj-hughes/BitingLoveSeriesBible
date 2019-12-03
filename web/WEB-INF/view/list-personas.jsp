@@ -29,7 +29,7 @@
         <button class="regularButton" onclick="window.location.href='addPersonaForm'; return false;">
             Add Character</button>
         <form:form action="search" method="GET">
-            Search characters
+            Search characters by name
             <input type="search" name="searchTerm"/>
             <input type="submit" value="Search" class="regularButton"/>
         </form:form>
@@ -38,7 +38,7 @@
             <tr>
                 <th>Picture</th>
                 <th>Name</th>
-                <th>Age year 0</th>
+                <th>Age year zero</th>
                 <th>Height</th>
                 <th>Eye color</th>
                 <th>Hair color</th>

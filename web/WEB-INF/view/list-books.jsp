@@ -28,7 +28,7 @@
         <div id="content">
             <button class="regularButton" onclick="window.location.href='addBookForm'; return false;">Add book</button>
                 <form:form action="search" method="GET">
-                    Search books
+                    Search books by title
                     <input type="search" name="searchTerm"/>
                     <input type="submit" value="Search" class="regularButton"/>
                 </form:form>

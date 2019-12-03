@@ -41,6 +41,12 @@ public class Gmc {
         this.id = id;
     }
 
+    public String getFormattedGmcType() {
+        String[] types = {"Unk","Internal","External"};
+        int chosen=gmcType.equals("I") ? 1 : 2;
+        return types[chosen];
+    }
+
     public String getGmcType() {
         return gmcType;
     }

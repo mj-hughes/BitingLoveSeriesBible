@@ -10,4 +10,5 @@ public interface BookService {
     void saveBook(Book theBook);
     void deleteBook(int theId);
     List<Book> getBooksByName(String theSearchTerm);
+    List<Book> getBooksForPersona(int personaId);
 }

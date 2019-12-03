@@ -1,8 +1,7 @@
 package hibernate.controller;
 
-import hibernate.entity.Persona;
-import hibernate.service.BookService;
-import hibernate.service.PersonaService;
+import hibernate.entity.*;
+import hibernate.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.stereotype.Controller;
@@ -24,6 +23,12 @@ public class PersonaController {
     private PersonaService personaService;
     @Autowired
     private BookService bookService;
+    @Autowired
+    private GmcService gmcService;
+    @Autowired
+    private BackstoryService backstoryService;
+    @Autowired
+    private WeaponService weaponService;
 
     @RequestMapping("/personaList")
     public String listPersonas(Model theModel) {
@@ -36,7 +41,6 @@ public class PersonaController {
     public String addPersonaForm(Model theModel) {
         Persona newPersona = new Persona();
         theModel.addAttribute("persona", newPersona);
-        //theModel.addAttribute("books", bookService.getBooks());
         return "add-persona-form";
     }
 
@@ -46,6 +50,12 @@ public class PersonaController {
             Model theModel) {
         Persona thePersona = personaService.getPersona(theId);
         theModel.addAttribute("persona", thePersona);
+        List <Gmc> gmcs = gmcService.getGmcsForPersona(theId);
+        theModel.addAttribute("gmcs", gmcs);
+        List<Backstory> backstories = backstoryService.getBackstoriesForPersona(theId);
+        theModel.addAttribute("backstories", backstories);
+        List<Book> books = bookService.getBooksForPersona(theId);
+        theModel.addAttribute("books", books);
         return "add-persona-form";
     }
 

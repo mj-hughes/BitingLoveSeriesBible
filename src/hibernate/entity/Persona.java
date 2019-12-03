@@ -4,6 +4,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 @Entity
@@ -95,6 +96,8 @@ public class Persona {
         books.add(tempBook);
     }
 
+    public List<Book> getBooks() { return books; }
+
     // Weapon convenience method to compensate for lazy load
     public void add(Weapon tempWeapon) {
         // Because of lazy loading, we might not have a list yet.
@@ -103,6 +106,8 @@ public class Persona {
         }
         weapons.add(tempWeapon);
     }
+    public List<Weapon> getWeapons() { return weapons; }
+
     // GMC convenience method
     public void add(Gmc tempGmc) {
         if (gmcs==null) {
@@ -110,6 +115,7 @@ public class Persona {
         }
         gmcs.add(tempGmc);
     }
+    public List<Gmc> getGmcs() { return gmcs; }
     // Backstory convenience method
     public void add(Backstory tempBackstory) {
         if (backstories==null) {
@@ -117,6 +123,7 @@ public class Persona {
         }
         backstories.add(tempBackstory);
     }
+    public List<Backstory> getBackstories() {return backstories; }
 
     public int getId() {
         return id;
@@ -211,4 +218,5 @@ public class Persona {
                 ", notes='" + notes + '\'' +
                 '}';
     }
+
 }

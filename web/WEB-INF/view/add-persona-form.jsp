@@ -1,4 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -19,7 +20,7 @@
     </div>
     <div id="header">
         <h1>Biting Love Series Bible</h1>
-        <h2>Add Character</h2>
+        <h2>Add/Edit Character</h2>
     </div>
 </div>
 <div id="container">
@@ -69,6 +70,55 @@
                     <td></td>
                     <td><input type="submit" value="Save" class="save"></td>
                 </tr>
+            </table>
+
+            <table>
+                <caption>Goal/Motivation/Conflict</caption>
+                <tr>
+                    <th>GMC Type</th>
+                    <th>Goal</th>
+                    <th>Motivation</th>
+                    <th>Conflict</th>
+                </tr>
+                <c:forEach var="tempGmc" items="${gmcs}">
+                    <tr>
+                        <td>${tempGmc.formattedGmcType}</td>
+                        <td>${tempGmc.goal}</td>
+                        <td>${tempGmc.motivation}</td>
+                        <td>${tempGmc.conflict}</td>
+                    </tr>
+                </c:forEach>
+            </table>
+            <table>
+                <caption>Backstories</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+                <c:forEach var="tempBackstory" items="${backstories}">
+                    <tr>
+                        <td>${tempBackstory.backstoryName}</td>
+                        <td>${tempBackstory.description}</td>
+                    </tr>
+                </c:forEach>
+            </table>
+            <table>
+                <caption>Books</caption>
+                <tr>
+                    <th>Title</th>
+                    <th>Book Month</th>
+                    <th>Book Year</th>
+                </tr>
+                <c:forEach var="tempBook" items="${books}">
+                    <tr>
+                        <td>${tempBook.title}</td>
+                        <td>${tempBook.formattedMonth}</td>
+                        <td>${tempBook.bookYear}</td>
+                    </tr>
+                </c:forEach>
+                <tr><td><button class="regularButton" onclick="window.location.href='/BitingLoveSeriesBible/book/list'; return false;">
+                    See all books</button>
+                </td></tr>
             </table>
         </form:form>
     </div>

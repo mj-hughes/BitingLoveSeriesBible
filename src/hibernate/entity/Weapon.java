@@ -9,9 +9,9 @@ import java.util.List;
 public class Weapon {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="weapon_id",  unique=true, nullable = false)
+    @Column(name="weapon_id")
     private int id;
-    @Column(name="weapon_name")
+    @Column(name="weapon_name",  unique=true, nullable = false)
     private String weaponName;
     @Column(name="description")
     private String description;
@@ -63,6 +63,14 @@ public class Weapon {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+    
+    public List<Persona> getPersonas() {
+        return personas;
+    }
+
+    public void setPersonas(List<Persona> personas) {
+        this.personas = personas;
     }
 
     @Override

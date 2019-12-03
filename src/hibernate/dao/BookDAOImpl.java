@@ -1,6 +1,7 @@
 package hibernate.dao;
 
 import hibernate.entity.Book;
+import hibernate.entity.Persona;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -49,6 +50,15 @@ public class BookDAOImpl implements BookDAO {
         theSearchTerm="%"+theSearchTerm.toLowerCase()+"%";
         query.setParameter("search", theSearchTerm);
         return query.getResultList();
+    }
+
+    @Override
+    public List<Book> getBooksForPersona(int personaId) {
+        Session session = sessionFactory.getCurrentSession();
+        Persona persona = session.get(Persona.class, personaId);
+        // Touch list to trigger lazy load
+        persona.getBooks().size();
+        return persona.getBooks();
 
     }
 }
